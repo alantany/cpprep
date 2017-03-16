@@ -28,5 +28,6 @@ int main()
             j++;
     }
     cout<<"average is : "<<avg<<" and there are "<<j<<" groups bigger than average!";
+	cout<<"nice!";
 }
 

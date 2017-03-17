@@ -5,8 +5,8 @@ int main()
 	char ch;
 	while (cin >> ch)
 	{
-	switch (ch)
-	{
+		switch (ch)
+		{
 		case 'a':
 			cout << "input A!" << endl;
 			break;
@@ -16,7 +16,7 @@ int main()
 		case 'c':
 			cout << "input C!" << endl;
 			break;
-	}
+		}
 	}
 
 	system("PAUSE");

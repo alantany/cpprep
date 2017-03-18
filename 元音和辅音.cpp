@@ -31,10 +31,10 @@ int main()
 		}
 		if (i == 0)
 		{
-			cout << word << " 不是一个元音字母." << endl;
+			cout << word << " 是一个辅音字母." << endl;
 			ctf++;
 		}
 	}
-	cout << "共有 " << cty << " 个元音字母和 " << ctf << " 个辅音字母.";
+	cout << "共有 " << cty << " 个元音字母和 " << ctf << " 个辅音字母." << endl;
 	system("pause");
 }

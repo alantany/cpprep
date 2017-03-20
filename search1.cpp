@@ -4,6 +4,7 @@
 using namespace std;
 main()
 {
+<<<<<<< HEAD
     //读取文件
     cout<<"请输入文件名：";
     string fname;
@@ -48,4 +49,34 @@ main()
         cout<<endl;
     }
     cout<<"一共出现了 "<<ct<<" 次 "<<kw;
+=======
+    cout<<"请输入文件名:";
+    string fname;
+    cin>>fname;
+    ifstream in(fname);
+    string s1,s2;
+    while(getline(in,s1))
+    {
+        s2+=s1;
+    }
+    cout<<"请输入要分析的关键字:";
+    string kw;
+    cin>>kw;
+    cout<<"请输入关键字后面显示的文字长度：";
+    int len;
+    cin>>len;
+    string::size_type
+    string::size_type pos=0;
+    int i=0;
+    while((pos=s2.find(kw,pos))!=string::npos)
+    {
+        i=pos;
+        pos++;
+        for(int j=0;j<len;j++,i++)
+        {
+            cout<<s2[i];
+        }
+        cout<<endl;
+    }
+>>>>>>> 9d5626044242ed78e13bb7706ff0fde60be3f8dc
 }

@@ -12,6 +12,8 @@ int main()
 	f2(crx);
 	f2(p);
 	f2(cp);
+	cout << df(4) << endl;
+	cout << df(30, 40)<<endl;
 
 	system("pause");
 }

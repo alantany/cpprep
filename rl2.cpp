@@ -15,3 +15,7 @@ void f2(const int *)
 {
 	std::cout << "const intpointer para called!" << std::endl;
 }
+int df(int x=10,int  y)
+{
+	return x-y;
+}

@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	vector<int(*)(int x, int y)> vfp;
+	vector<PF> vfp;
 	int x = 100, y = 30;
 	PF pp = fpplus;
 	PF pmi = fpminus;
@@ -21,5 +21,3 @@ int main()
 
 	system("pause");
 }
-
-
